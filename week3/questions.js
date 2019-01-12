@@ -75,7 +75,7 @@ const questions = {
     7: {
         question: `What does the following do?
             let data = $.get('/someAPIurl', function(result){
-                return result
+                return data
             })
             console.log(data)
         `,
@@ -118,8 +118,8 @@ const questions = {
         answers: {
             a: "Nothing",
             b: "Throw an error",
-            c: "Print the Mola object",
-            d: "Print the Bellatrix object"
+            c: "Print 'Mola'",
+            d: "Print 'Bellatrix'"
         }
     },
     // ------ OOP ------
@@ -243,7 +243,7 @@ const questions = {
         }
     },
     18: {
-        question: `Assuming we have a class Planet that has one parameter in its constructor, name, what will the following do?
+        question: `Assuming we have a class Planet that has on parameter in its constructor, name, what will the following do?
             let earth = new Planet
             earth.name = "Earth 2.0"
             console.log(earth.name)
